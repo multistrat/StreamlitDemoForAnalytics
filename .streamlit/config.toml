@@ -1,0 +1,15 @@
+# useful references
+# https://github.com/MarcSkovMadsen/awesome-streamlit/blob/master/.streamlit/config.local.toml
+
+# setting default themes
+# https://docs.streamlit.io/library/advanced-features/theming
+[theme]
+primaryColor="#2B3341"                  # stanlib dark blue
+backgroundColor="#EDF0F8"               # stanlib greywhite
+secondaryBackgroundColor="white"        # background for plots & widgets
+textColor="#2B3341"                     # stanlib dark grey
+font="sans serif"                       # only allos sans serif, serif & monospace
+
+# presumably a marginal performance gain by hiding browser stats
+[browser]
+gatherUsageStats = false
